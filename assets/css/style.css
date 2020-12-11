@@ -480,6 +480,10 @@ footer .main-footer .social-media .row a i {
     transition: 400ms
 }
 
+footer .main-footer .social-media .row a:last-child i {
+    font-size: 40px;
+}
+
 footer .main-footer .social-media .row a i:hover {
     color: #868686;
 }
