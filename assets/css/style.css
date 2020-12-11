@@ -992,7 +992,7 @@ footer.aria .main-footer .social-media .row:last-child a i {
     margin-top: 30px;
 }
 
-footer .main-footer .social-media .row a:last-child i {
+footer.aria .main-footer .social-media .row a:last-child i {
     font-size: 40px;
 }
 
@@ -1294,7 +1294,7 @@ footer.exit .main-footer .social-media .row:last-child a i {
     margin-top: 30px;
 }
 
-footer .main-footer .social-media .row a:last-child i {
+footer.exit .main-footer .social-media .row a:last-child i {
     font-size: 40px;
 }
     
