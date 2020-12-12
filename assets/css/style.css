@@ -511,9 +511,7 @@ footer .secondary-footer {
     color: #fff;
 }
 
-footer .secondary-footer a:nth-child(2) {
-    color: #fff;
-    margin-right: 10px;
+footer .secondary-footer a {
     border-bottom: 1px solid #fff;
 }
 
@@ -1012,8 +1010,7 @@ footer.aria .secondary-footer {
     color: #d89743;
 }  
 
-footer.aria .secondary-footer a:nth-child(2) {
-    color: #d89743;
+footer.aria .secondary-footer a {
     border-bottom: 1px solid #d89743;
 }
 
@@ -1315,8 +1312,7 @@ footer.exit .secondary-footer {
     color: #31ad4c;
 }
 
-footer.exit .secondary-footer a:nth-child(2) {
-    color: #31ad4c;
+footer.exit .secondary-footer a {
     border-bottom: 1px solid #31ad4c;
 }
 
