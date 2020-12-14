@@ -357,16 +357,18 @@ main .about .about-wrapper .about-row .about-text p {
     border: 0;
     background: transparent;
     outline: none;
-    border-bottom: 4px solid #196991;
+    border-bottom: 2px solid #196991;
     height: 40px;
     width: 40%;
     color: #858585;
-    font-size: 22px;
+    font-size: 20px;
+    transition: 300ms;
+    padding: 5px;
 }
 
 .contact .contact-wrapper .input-fields input:focus {
-    border-color: #757575;
-    animation: show 400ms ease;
+    border: 2px solid #196991;
+    background: rgba(255, 255, 255, 0.89); 
 }
 
 .contact .contact-wrapper .input-fields input::placeholder {
@@ -385,18 +387,20 @@ main .about .about-wrapper .about-row .about-text p {
     border: 0;
     background: transparent;
     outline: none;
-    border-bottom: 4px solid #196991;
-    height: 40px;
+    border-bottom: 2px solid #196991;
     width: 90%;
     color: #858585;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 400;
     height: 200px;
     font-family: 'Poppins', sans-serif;
+    transition: 300ms;
+    padding: 5px;
 }
 
 .contact .contact-wrapper .message-field textarea:focus {
-    border-color: #757575;
-    animation: show 400ms ease;
+    border: 2px solid #196991;
+    background: rgba(255, 255, 255, 0.89);  
 }
 
 
@@ -408,10 +412,9 @@ main .about .about-wrapper .about-row .about-text p {
     margin: 0 auto;
     width: 50%;
     height: 50px;
-    border: 1px solid #196991;
     border-radius: 8px;
     background-color: #196991;
-    margin-top: 30px;
+    margin-top: 25px;
     padding-top: 12.5px;    
     text-transform: uppercase;
     text-align: center;
