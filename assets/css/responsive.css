@@ -169,6 +169,30 @@
     main.exit-main .about-exit .about:last-child .about-text {
         width: 100%;
     }
+    
+              /* Biography page */
+
+    header.biography nav {
+        margin-right: 350px;
+    }
+
+    header.biography nav ul li a {
+        font-size: 22px;
+    }
+
+    .biography-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .biography-wrapper .designers-biography {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
 
 }
 
