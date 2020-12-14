@@ -562,6 +562,7 @@ body .payment-wrapper {
     background-color: #fff;
     box-shadow: 0px 20px 20px 0px #5e5c5c;
     animation: show 1s ease;
+    flex-shrink: 0;
 }
 
 body .payment-wrapper .payment-header {
@@ -619,16 +620,14 @@ body .payment-wrapper .payment-form .card-info input {
 body .payment-wrapper .payment-form .card-info input:first-child,
 body .payment-wrapper .payment-form .card-info input:nth-child(2) {
     background-image: url("../img/user.png");
-    background-position-y: center;
-    background-position-x: 400px;
+    background-position: right;
     background-size: 30px;
     background-repeat: no-repeat;
 }
 
 body .payment-wrapper .payment-form .card-info input:nth-child(3) {
     background-image: url("../img/credit-card.png");
-    background-position-y: center;
-    background-position-x: 400px;
+    background-position: right;
     background-size: 30px;
     background-repeat: no-repeat;
 }
@@ -660,17 +659,14 @@ body .payment-wrapper .payment-form .security-fields input {
 body .payment-wrapper .payment-form .security-fields input:first-child,
 body .payment-wrapper .payment-form .security-fields input:last-child {
     background-image: url("../img/credit-card.png");
-    filter: grayscale(100%);
-    background-position-y: center;
-    background-position-x: 145px;
+    background-position: right;
     background-size: 30px;
     background-repeat: no-repeat;
 }
 
 body .payment-wrapper .payment-form .security-fields input:last-child {
     background-image: url("../img/card-cvv.png");
-    background-position-y: center;
-    background-position-x: 145px;
+    background-position: right;
     background-size: 35px;
     background-repeat: no-repeat;
 }
@@ -842,6 +838,7 @@ main.aria-main .about-aria .about .about-image {
     background-size: cover;
     background-position: center;
     height: 530px;
+    flex-shrink: 0;
 }
 
 main.aria-main .about-aria .about:last-child .about-image {
@@ -851,6 +848,7 @@ main.aria-main .about-aria .about:last-child .about-image {
     background-size: cover;
     background-position: center;
     height: 530px;
+    flex-shrink: 0;
 }
 
 main.aria-main .about-aria .about .about-text {
@@ -1145,7 +1143,8 @@ main.exit-main .about-exit .about .about-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 530px;
+    flex-shrink: 0;
 }
     
 main.exit-main .about-exit .about:last-child .about-image {
@@ -1155,6 +1154,7 @@ main.exit-main .about-exit .about:last-child .about-image {
     background-size: cover;
     background-position: center;
     height: 530px;
+    flex-shrink: 0;
 }
     
 main.exit-main .about-exit .about .about-text {
