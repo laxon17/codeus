@@ -67,8 +67,7 @@ header {
 
 header .header-logo {
     width: 10%;
-    padding: 30px 200px 30px 100px;
-    
+    padding: 30px 200px 30px 100px;  
 }
 
 header nav {
@@ -85,7 +84,7 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     color:  #366775;
-    font-size: 22px;
+    font-size: 1.2vw;
 }
 
 header nav ul li a:after {                  
@@ -96,9 +95,10 @@ header nav ul li a:after {
     transition: 300ms;
 }
   
-  header nav ul li a:hover:after {
+header nav ul li a:hover:after {
     opacity: 1;
 }
+
 
     /*Intro*/
 .intro-wrap {
@@ -210,13 +210,16 @@ main .product-wrapper .product-image {
 
     /*Our team section*/
 main .team {
+    width: 100%;
     border-top: 40px solid #e2e2e2;
     border-bottom: 40px solid #e2e2e2;
     display: flex;
     flex-direction: column;   
+    align-items: center;
 }
 
 main .team .developer-row {
+    width: 80%;
     margin-top: 30px;
     margin-bottom: 50px ;
     display: flex;
@@ -309,36 +312,35 @@ main .about .about-wrapper .about-row .about-text p {
     /*Contact section*/
 .contact {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 100%;
     margin: 0 auto;
 }
 
 .contact .background-container {
     width: 100%;
-    height: 1000px;
 }
 
 .contact .contact-wrapper {
     display: flex;
     flex-direction: column;
-    justify-self: flex-end ;
+    justify-self: flex-start ;
     align-self: center;
     width: 35%;
     height: 550px;
-    background: #19699165;
+    background: #ffffffad;
     position: absolute;
-    margin-right: 150px;
+    margin-left: 150px;
     border-radius: 8px;
 }
 
 .contact .contact-wrapper .title-wrapper {
-    background: #02141d83;
+    background: #ffffffad;
     padding-bottom: 10px;
 }
 
 .contact .contact-wrapper .title-wrapper h2 {
-   color: #fff;
+   color: rgb(37, 103, 134);
    text-align: center;
    margin-top: 20px;
    font-size: 30px;
@@ -358,7 +360,7 @@ main .about .about-wrapper .about-row .about-text p {
     border-bottom: 4px solid #196991;
     height: 40px;
     width: 40%;
-    color: #fff;
+    color: #858585;
     font-size: 22px;
 }
 
@@ -368,7 +370,7 @@ main .about .about-wrapper .about-row .about-text p {
 }
 
 .contact .contact-wrapper .input-fields input::placeholder {
-    color: #cccccc;
+    color: #ccc;
 }
 
 .contact .contact-wrapper .message-field {
@@ -386,7 +388,7 @@ main .about .about-wrapper .about-row .about-text p {
     border-bottom: 4px solid #196991;
     height: 40px;
     width: 90%;
-    color: #fff;
+    color: #858585;
     font-size: 22px;
     height: 200px;
     font-family: 'Poppins', sans-serif;
@@ -551,7 +553,7 @@ header.biography nav ul li {
 }
 
 .biography-wrapper .designers-biography p {
-    font-size: 25px;
+    font-size: 22px;
     color: #5e5c5c;
 }
 
