@@ -1,5 +1,23 @@
 @media screen and (max-width: 1420px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    header .header-logo {
+        width: 30%;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 100%;
+        display: flex; 
+        justify-content: space-around;
+    }
             /*Index*/
     main .product-wrapper {
         display: flex; 
@@ -73,6 +91,11 @@
     }
 
             /*Aria*/
+
+    .aria-background .aria-imac {
+        margin-bottom: 290px;
+        width: 30%;
+    }
     main.aria-main .about-aria {
         display: flex;
         flex-direction: column;
@@ -107,6 +130,12 @@
         width: 100%;
     }
             /*Exit*/
+
+    .exit-background .exit-tablet {
+        margin-bottom: 290px;
+        width: 40%;
+    }
+
     main.exit-main .about-exit {
         display: flex;
         flex-direction: column;
