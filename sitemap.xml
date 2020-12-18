@@ -2,13 +2,13 @@
     <urlset xmlns="http://wwww.sitemaps.org/schemas/sitemap/0.9">
         <url>
             <loc>https://laxon17.github.io/codeus/index.html</loc>
-            <lastmod>2020-12-14</lastmod>
+            <lastmod>2020-12-18</lastmod>
             <changefreq>daily</changefreq>
             <priority>1</priority>
         </url>
         <url>
             <loc>https://laxon17.github.io/codeus/product-aria.html</loc>
-            <lastmod>2020-12-12</lastmod>
+            <lastmod>2020-12-16</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.95</priority>
         </url>
