@@ -560,7 +560,7 @@ header.biography nav ul li {
     color: #5e5c5c;
 }
 
-.biography-wrapper .designers-biography p:first-child {
+.biography-wrapper .designers-biography p:first-of-type {
     margin-bottom: 30px;
 }
 
