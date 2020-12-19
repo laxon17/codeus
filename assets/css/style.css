@@ -560,6 +560,15 @@ header.biography nav ul li {
     color: #5e5c5c;
 }
 
+.biography-wrapper .designers-biography p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.biography-wrapper .designers-biography p:last-child a {
+    text-decoration: none;
+    color: #0293db;
+}
+
     /*Payment page*/
 body .payment-wrapper {
     width: 40%;
