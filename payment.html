@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Lazar Lalović, 62/20" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="This is the payment page. Enter your info down bellow." />
+        <meta name="keywords" content="Payment, debit, credit, master, maestro, visa, visa-electron, apple pay, google pay" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="icon" href="assets/img/blue-logo.png" />
+        <script src="assets/javaScript/script.js"></script>
+        <title>Payment</title>
+    </head>
+    <body>
+
+        <!--Wrapper of payment form-->
+        <section class="payment-wrapper">
+
+            <div class="payment-header">
+                <h1>Payment details</h1>
+            </div>
+                <!--This article is for card pictures-->
+            <article class="cards">
+                <div class="card-container">
+                    <img src="assets/img/master-card.png" alt="Master card" width="60%" />
+                </div>
+                <div class="card-container">
+                    <img src="assets/img/pay-pal.png" alt="Pay Pal" width="100%" />
+                </div>
+                <div class="card-container">
+                    <img src="assets/img/visa.png" alt="Visa electron" width="80%" />
+                </div>
+                <div class="card-container">
+                    <img src="assets/img/maestro.png" alt="Maestro" width="60%" />
+                </div>
+            </article>
+                <!--This article is for card-holder information-->
+            <article class="payment-form">
+                <div class="card-info">
+                    <input type="text" maxlength="15" placeholder="Your first name...">
+                    <input type="text" maxlength="24" placeholder="Your last name...">
+                    <input type="text" maxlength="24" placeholder="Valid card number...">
+                </div>
+                <div class="security-fields">
+                    <input type="text" maxlength="5" placeholder="MM/YY">
+                    <input type="text" maxlength="3" placeholder="CVV">
+                </div>
+            </article>
+
+            <div class="payment-footer">
+                <div onclick="popUp2()" class="confirm-button">Confirm payment</div>
+            </div>
+
+        </section>
+
+    </body>
+</html>

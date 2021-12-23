@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Codeus</title>
+        <link>https://laxon17.github.io/codeus/index.html</link>
+        <description>News</description>
+            <item>
+                <title>Exit discount!</title>
+                <link>https://laxon17.github.io/codeus/product-exit.html</link>
+                <description>Hurry up! There's a discount on our Exit app, check It out!</description>
+            </item>
+            <item>
+                <title>Update for Aria!</title>
+                <link>https://laxon17.github.io/codeus/product-aria.html</link>
+                <description>We updated Aria! Check it out!</description>
+            </item>
+            <item>
+                <title>New app!</title>
+                <link>https://laxon17.github.io/codeus/index.html</link>
+                <description>We published a new app! Fastest buyers get a discount.</description>
+            </item>
+    </channel>
+</rss>
