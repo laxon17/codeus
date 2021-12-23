@@ -1,0 +1,199 @@
+@media screen and (max-width: 1420px) {
+
+            /* For all headers */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header .header-logo {
+        width: 30%;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 100%;
+        display: flex; 
+        justify-content: space-around;
+    }
+            /*Index page*/
+    main .product-wrapper {
+        display: flex; 
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    main .product-wrapper .product-info {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        margin-right: 150px;
+    }
+
+    main .product-wrapper .product-info .options {
+        margin: 0 auto;
+    }
+
+    main .product-wrapper .product-image {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    main .team .developer-row .developer .developer-name {
+        padding-bottom: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        font-size: 20px;
+        background-color: #196991;
+        color: #fff;
+    }
+    
+    main .team .developer-row .developer .developer-name .company-position {
+        background-color: #103d53;
+        margin-bottom: 6px;
+        padding: 10px;
+        font-size: 13px;
+        text-transform: uppercase;    
+    }
+
+    main .about {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .about .about-wrapper .about-row {
+        display: flex; 
+        flex-direction: column;
+        
+    }
+
+    main .about .about-wrapper .about-row:last-child {
+        flex-direction: column-reverse;
+    }
+
+    main .about .about-wrapper .about-row .about-text,
+    main .about .about-wrapper .about-row:last-child .about-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    main .about .about-wrapper .about-row .image-container {
+        margin: 0 auto;
+    }
+
+    main .about .about-wrapper .about-row:last-child .image-container img {
+        width: 60%;
+    }
+
+            /*Aria page*/
+
+    .aria-background .aria-imac {
+        margin-bottom: 290px;
+        width: 30%;
+    }
+    main.aria-main .about-aria {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+        
+    main.aria-main .about-aria .about {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        width: 100%;
+    }
+
+    main.aria-main .about-aria .about:last-child {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main.aria-main .about-aria .about .about-image,
+    main.aria-main .about-aria .about .about-text {
+        width: 100%;
+    }
+
+    main.aria-main .about-aria .about .about-text,
+    main.aria-main .about-aria .about:last-child .about-text {
+        padding: 5px;
+    }
+
+    main.aria-main .about-aria .about:last-child .about-image,
+    main.aria-main .about-aria .about:last-child .about-text {
+        width: 100%;
+    }
+            /*Exit page*/
+
+    .exit-background .exit-tablet {
+        margin-bottom: 290px;
+        width: 40%;
+    }
+
+    main.exit-main .about-exit {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+        
+    main.exit-main .about-exit .about {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        width: 100%;
+    }
+
+    main.exit-main .about-exit .about:last-child {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main.exit-main .about-exit .about .about-image,
+    main.exit-main .about-exit .about .about-text {
+        width: 100%;
+    }
+
+    main.exit-main .about-exit .about .about-text,
+    main.exit-main .about-exit .about:last-child .about-text {
+        padding: 5px;
+    }
+
+    main.exit-main .about-exit .about:last-child .about-image,
+    main.exit-main .about-exit .about:last-child .about-text {
+        width: 100%;
+    }
+
+            /* Biography page */
+
+    header.biography nav {
+        margin-right: 350px;
+    }
+
+    header.biography nav ul li a {
+        font-size: 22px;
+    }
+
+    .biography-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .biography-wrapper .designers-biography {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
